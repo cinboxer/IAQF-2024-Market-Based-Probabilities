@@ -1,0 +1,69 @@
+Data Dictionary,
+,
+Acronyms/Other Term Definitions:,
+maturity_target,The time-to-expiry target for options selection
+mu,The mean of the MPD;  mu = sum(probability at ln-return x * ln-return x)
+sd,The standard deviation of the MPD;  sd = sqrt(sum(probability at ln-return x * (ln-return x - mu)^2))
+skew,The skew of the MPD;  skew = sum(probability at ln-return x * (ln-return x - mu)^3)/(sd^3)
+kurt,The kurtosis of the MPD;  kurt = sum(probability at ln-return x * (ln-return x - mu)^4)/(sd^4)-3
+p10,The 10th percentile of the MPD
+p50,The 50th percentile of the MPD
+p90,The 90th percentile of the MPD
+lg_change_prob,"The change in the expected return in percentage terms defined as ""large"""
+prDec,"The probability of a ""large decline"" in return as defined by ""lg_change_prob"""
+prInc,"The probability of a ""large increase"" in return as defined by ""lg_change_prob"""
+,
+Firms/Assets:,
+Ticker,Full Name
+afl,Aflac
+aig,American International Group
+all,Allstate
+amp,"Ameriprise Financial, Inc."
+axp,American Express Company
+bac,Bank of America Corporation
+bbt,BB&T Corporation
+bcs,Barclays PLC
+bk,Bank of New York-Mellon Corporation
+cattle,Live cattle (CME)
+cb,Chubb Corporation
+citi,"Citigroup, Inc."
+cof,Capital One Financial Corporation
+corn,Corn (CME)
+cs,Credit Suisse Group
+db,Deutsche Bank AG
+euro,Euro-USD exchange rate (CME)
+fitb,Fifth Third Bancorp
+gold,Gold (CME)
+gs,"Goldman Sachs Group, Inc."
+hig,Hartford Financial Services Group
+hogs,Lean hogs (CME)
+infl1y,"CPI cap/floor-based inflation expectations, 1 year"
+infl2y,"CPI cap/floor-based inflation expectations, 2 year"
+infl5y,"CPI cap/floor-based inflation expectations, 5 year"
+iyr,iShares real estate index
+jpm,JP Morgan Chase & Company
+key,KeyCorp
+lnc,Lincoln National Corporation
+LR3y3m,"3 month LIBOR, 3-years-out"
+LR5y3m,"3 month LIBOR, 5-years-out"
+met,MetLife
+ms,Morgan Stanley
+oil,West Texas Intermediate Crude Oil (CME)
+pfg,Principal Financial Group
+pgr,Progressive Corporation
+pnc,PNC Financial Services Group
+pound,Pound-USD exchange rate (CME)
+pru,"Prudential Financial, Inc."
+rf,Regions Financial Corporation
+silver,Silver (CME)
+soybns,Soybeans (CME)
+sp12m,"S&P 500, 12-months-out"
+sp6m,"S&P 500, 6-months-out"
+sti,"SunTrust Banks, Inc."
+stt,State Street Corp
+tr10yr,10-Year Treasury price (CME)
+tr5yr,5-Year Treasury price (CME)
+usb,US Bancorp
+wfc,Wells Fargo & Company
+wheat,Wheat (CME)
+yen,Yen-USD exchange rate (CME)
